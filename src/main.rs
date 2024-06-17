@@ -10,6 +10,6 @@ fn main() {
 fn App() -> impl IntoView {
     view! {
         <p>"Hello world!"</p>
-        <script type="module">"import init from './bevy_breakout.js'; init();"</script>
+        <script type="module">"import init from './bevy-breakout.js'; init();"</script>
     }
 }
